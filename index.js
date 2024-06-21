@@ -12,7 +12,7 @@ function initBattery(){
             if(level == 100){
                 batteryStatus.innerHTML = `Battery Full <i class= "ri-battery-2-fill green-color"></i>`;
                 batteryLiquid.style.height= "100%"; 
-            }else if (level <= 20 & !batt.charging){
+            }else if (level <= 20 && !batt.charging){
                 batteryStatus.innerHTML = `Low Charge <i class="ri-flashLight-line animated-green"></i>`;
             }else{
                 batteryStatus.innerHTML= "";
